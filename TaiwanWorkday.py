@@ -75,7 +75,7 @@ for i in range(YEAR_RANGE):
         #for each in content[1:]:
         for each in content:
             #print(each)
-            taiwanHoliday[each[0]] = 1 if each[2] == "0" else 0
+            taiwanHoliday[each[0]] = True if each[2] == "0" else False
         f.close()
 
 
